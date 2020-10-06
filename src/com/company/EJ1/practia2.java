@@ -1,4 +1,4 @@
-package com.company;
+package com.company.EJ1;
 import java.lang.reflect.AnnotatedArrayType;
 import java.util.Scanner;
 
@@ -20,8 +20,8 @@ class Main {
             int respuesta = scanner.nextInt();
             if (respuesta == 1) {
                     while (a != 0){
-                        int D1 = (int) Math.floor(Math.random()*6+1);;
-                        int D2 = (int) Math.floor(Math.random()*6+1);;
+                        int D1 = (int) Math.floor(Math.random()*6+1);
+                        int D2 = (int) Math.floor(Math.random()*6+1);
                         int suma = D1+D2;
                         lanzamientos++;
                         System.out.println("Empieza el juego tiramos el 1 dado ");
